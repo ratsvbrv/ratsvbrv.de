@@ -1,0 +1,11 @@
+RedirectMatch 302 /aktuell http://www.tsvbremervoerde.de/default.cfm?mid=30282
+RedirectMatch 302 /termine http://www.tsvbremervoerde.de/default.cfm?mid=30283
+RedirectMatch 302 /training http://www.tsvbremervoerde.de/default.cfm?mid=41880
+RedirectMatch 302 /vorstand http://www.tsvbremervoerde.de/default.cfm?mid=30285
+RedirectMatch 302 /bilder http://www.tsvbremervoerde.de/default.cfm?mid=33246
+RedirectMatch 302 /links http://www.tsvbremervoerde.de/default.cfm?mid=30876
+RedirectMatch 302 /geschichte http://www.tsvbremervoerde.de/default.cfm?mid=30881
+RedirectMatch 302 /vfr http://www.tsvbremervoerde.de/default.cfm?mid=30880
+
+#this must be the last rule
+RedirectMatch 302 ^(.*)$ http://www.tsvbremervoerde.de/default.cfm?mid=30281
